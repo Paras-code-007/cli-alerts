@@ -6,11 +6,7 @@
 	"files": [
 		"index.js"
 	],
-	"repository": "",
-	"scripts": {
-		"test": "node test.js && echo \"Error: no test specified\" && exit 1",
-		"format": "prettier --write \"./**/*.{js,json}\""
-	},
+	"repository": "Paras-code-007/cli-alerts",
 	"keywords": [
 		"clialert",
 		"Paras Arora",
@@ -27,5 +23,13 @@
 	"license": "MIT",
 	"devDependencies": {
 		"prettier": "^2.1.2"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"log-symbols": "^4.0.0"
+  },
+  "scripts": {
+		"test": "node test.js && echo \"Error: no test specified\" && exit 1",
+		"format": "prettier --write \"./**/*.{js,json}\""
 	}
 }
