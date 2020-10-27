@@ -1,0 +1,31 @@
+{
+	"name": "cli-alerts",
+	"version": "1.0.0",
+	"description": "bin not require as it is not a cli tool but a node-module, node-module for providing cli-alerts for success info waarning alerts. Works on macos linux",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"repository": "",
+	"scripts": {
+		"test": "node test.js && echo \"Error: no test specified\" && exit 1",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"keywords": [
+		"clialert",
+		"Paras Arora",
+		"paras007",
+		"Paras",
+		"Arora",
+		"parasarora"
+	],
+	"author": {
+		"name": "PARAS ARORA",
+		"email": "paras.arora0025@gmail.com",
+		"url": "https://twitter.com/paras0025"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"prettier": "^2.1.2"
+	}
+}
