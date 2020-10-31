@@ -1,6 +1,6 @@
 {
 	"name": "clialerting",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "bin not require as it is not a cli tool but a node-module, node-module for providing cli-alerts for success info waarning alerts. Works on macos linux",
 	"main": "index.js",
 	"files": [
